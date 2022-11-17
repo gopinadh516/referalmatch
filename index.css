@@ -1,0 +1,556 @@
+body {
+  background-color: #eee;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.add {
+  border-radius: 20px;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.card:hover {
+  -webkit-box-shadow: 3px 5px 17px -4px #777777;
+  box-shadow: 3px 5px 17px -4px #777777;
+}
+
+
+
+.apointment button {
+  border-radius: 8px;
+  background-color: #003798;
+  color: #ffffff;
+  font-size: 1rem;
+}
+.doc-profile h3{
+  font-size: 1rem;
+}
+.doc-profile p{
+  font-size: 0.875rem;
+  margin-bottom: 0;
+}
+ul{
+  list-style-type: none;
+}
+.left-navigation{
+  background: #00173E;
+  width: 74px;
+  flex: 1;
+  padding: 15px;
+  position: absolute;
+  left: 0;
+  height: 100%;
+}
+section.header-layout {
+  position: relative;
+  margin-left: 74px;
+  max-width: 100%;
+  height: 110px;
+
+top: 0.31px;
+
+/* Global/White */
+
+background: #FFFFFF;
+box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+}
+header.d-flex.flex-wrap.header-top{
+  flex-wrap: nowrap !important;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-right: 40px;
+}
+
+.header-left a span {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 35px !important;
+  line-height: 48px;
+/* identical to box height, or 137% */
+
+
+/* Global/Black */
+  color: #000000;
+  padding-left: 20px;
+}
+
+.header-center p:first-child , .header-right p:first-child,  .header-last p:first-child, .italic-head {
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+/* Grey / THR - Grey 04 */
+  color: #4D4D4D;
+  opacity: 0.64;
+}
+.header-center p:first-child b,  .header-right p:first-child b,  .header-last p:first-child b{
+  font-family: 'Nunito Sans';
+  font-style: italic;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #000 !important;
+  opacity: 1;
+}
+
+header.d-flex.flex-wrap.header-top .btn-outline-primary{
+    
+  /* Global/White */
+    
+/* max-width: 120px; */
+    
+background: transparent;
+  /* Grey / THR - Grey 02 */
+    
+border:none;
+    
+font-family: 'Nunito Sans';
+    
+font-style: normal;
+    
+font-weight: 600;
+    
+font-size: 14px;
+    
+line-height: 22px;
+  /* identical to box height */
+    
+border:none !important;
+  
+  /* Global/Black */
+    
+color: #000000c4;
+    
+opacity: 1;
+    
+padding: 10px 20px;
+  }
+input.btn.btn.btn-outline-primary.btn-zip {
+    max-width: 160px;
+}
+  header.d-flex.flex-wrap.header-top .btn-group{
+      border-radius: 100px;
+      border: 2px solid #ECECEC !important;
+      background: #FFFFFF;
+      margin: -2px;
+  } 
+
+
+section.content {
+  position: relative;
+  margin-left: 74px;
+  max-width: 100%;
+  padding-top: 32px;
+}
+
+.chips .rounded-pill {
+  border-radius: 50rem!important;
+  background: #FFFFFF;
+  border-radius: 64px !important;
+  display: flex;
+  align-items: center;
+  padding: 6px 10px 4px 12px;
+  margin-right: 12px;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 10px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #000000;
+}
+.card.doc-profile {
+  height: 100%;
+  background: #FFFFFF !important;
+  box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.03) !important;
+  border-radius: 16px !important;
+  padding: 15px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.doc-profile p{
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+
+/* Global/Black */
+  /* color: #391a1a; */
+  color: #838383;
+  opacity: 1;
+}
+
+.doc-profile h3{
+  font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 26px;
+/* identical to box height, or 153% */
+
+
+/* Global/Black */
+
+color: #000000;
+
+}
+.chip-success {
+   
+  padding: 4px 12px;
+  gap: 10px;
+  /* width: 86px; */
+  height: 22px;
+  background: #EAF6E8;
+  border-radius: 4px;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 10px;
+  line-height: 14px;
+/* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #197D46;
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+.chip-primary {
+  margin-right: 5px;
+  padding: 4px 12px;
+  gap: 10px;
+  width: auto;
+  height: 22px;
+  background: #E6EEFC;
+  border-radius: 4px;
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 10px;
+  line-height: 14px;
+/* identical to box height */
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+/* Tints / THR - Blue / Tint 02 */
+  color: #0043B8;
+  text-decoration: none;
+}
+.doc-content ul , .doc-contact ul{
+  padding-left: 0;
+}
+.doc-content ul li{
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+
+
+/* Global/Black */
+
+color: #838383;
+opacity: 1 !important;
+margin-bottom:10px;
+}
+.doc-contact ul li{
+  /* Body 3 */
+
+font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 16px;
+
+/* Global/Black */
+margin-bottom:10px;
+color: #000000;
+
+opacity: 0.64;
+}
+.header-center p{
+  font-size: 14px;
+}
+.doc-contact  p{
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  
+  
+  /* Global/Black */
+  
+  color: #000000;
+  opacity: 1 !important;
+  margin-bottom: 10px;
+}
+header.d-flex.flex-wrap.header-top label.btn.btn-outline-primary.btn-gender {
+  background-image: url(images/btn-grnder.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: 13px !important;
+  padding-left: 34px !important;
+  background-position: 15px 13px !important;
+  border-right: 1px solid #ddd !important;
+}
+.btn-lang{
+  background-image: url(images/desktop.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: 13px !important;
+  padding-left: 34px !important;
+  background-position: 15px 13px !important;
+}
+
+.btn-zip{
+  background-image: url(images/map-sm.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: 13px !important;
+  padding-left: 34px !important;
+  background-position: 15px 13px !important;
+  border-right: 1px solid #ddd !important;
+}
+.doc-edit{
+  background-image: url(images/edit.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: 20px !important;
+  padding-left: 0;
+  background-position: 0;
+  border-right: 1px solid #ddd !important;
+  height: 20px;
+  width: 20px;
+  background-color: transparent;
+  border: none;
+  box-shadow: none !important;
+}
+.btn-group.select-grp {border-bottom-left-radius: 0 !important;
+   border-top-left-radius: 0 !important;}
+   .d-flex.justify-content-between.card-badge span {
+    background: #197D46;
+    border-radius: 33px;
+    padding: 4px 12px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 14px;
+/* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+/* Global/White */
+    color: #FFFFFF;
+    background-image: url(images/badge.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: 9px !important;
+    padding-left: 23px !important;
+    background-position: 10px 5px !important;
+    border-right: 1px solid #ddd !important;
+    position: absolute;
+    top: -8px;
+}
+button.btn.btn-secondary.doc-edit:hover {
+  color: #fff;
+  background-color: transparent;
+  border-color: transparent;
+}
+/** card icons **/
+.text-danger{
+  color: #D2242B !important;
+  opacity: 1 !important;
+}
+li.doc-content-list-one {
+  background-image: url(images/hospital.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: 14px !important;
+  padding-left: 22px !important;
+  background-position: 2px 2px !important;
+  border-right: none;
+}
+li.doc-content-list-two {
+  background-image: url(images/info-card.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: 14px !important;
+  padding-left: 22px !important;
+  background-position: 2px 2px !important;
+  border-right: none;
+}
+li.doc-content-list-three {
+  background-image: url(images/laugh.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: 14px !important;
+  padding-left: 22px !important;
+  background-position: 2px 2px !important;
+  border-right: none;
+}
+li.doc-content-list-four {
+  background-image: url(images/map-small.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: 14px !important;
+  padding-left: 22px !important;
+  background-position: 2px 2px !important;
+  border-right: none;
+}
+li.doc-content-list-five {
+  background-image: url(images/Union-4.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: 14px !important;
+  padding-left: 22px !important;
+  background-position: 2px 2px !important;
+  border-right: none;
+}
+li.doc-content-list-six {
+  background-image: url(images/Union-5.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: 14px !important;
+  padding-left: 22px !important;
+  background-position: 2px 2px !important;
+  border-right: none;
+}
+.doc-contact  p{
+  padding-bottom: 5px;
+  background-image: url(images/map.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: 18px !important;
+  padding-left: 28px !important;
+  background-position: 2px 0px !important;
+  border-right: none;
+  line-height: 24px;
+}
+li.doc-contact-list-phone {
+  background-image: url(images/phone.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: 11px !important;
+  padding-left: 18px !important;
+  background-position: 3px 1px !important;
+  border-right: none;
+}
+li.doc-contact-list-fax {
+  background-image: url(images/fax.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: 11px !important;
+  padding-left: 18px !important;
+  background-position: 3px 1px !important;
+  border-right: none;
+}
+li.doc-contact-list-link {
+  background-image: url(images/link-small.png) !important;
+  background-repeat: no-repeat !important;
+  background-size: 11px !important;
+  padding-left: 18px !important;
+  background-position: 3px 1px !important;
+  border-right: none;
+  opacity:1 !important;
+}
+span.map-number {
+  position: absolute;
+  color: #fff;
+  left: 23px;
+  background: transparent;
+  font-size: 10px;
+}
+.opacity-1{
+  opacity: 1 !important;
+}
+.tooltip .tooltip-inner{
+  background-color: #04173f !important;
+  color:#fff !important;
+  padding: 15px 15px 20px 15px;
+  border-radius: 10px !important;
+}
+.doc-profile p .opacity-1 img {
+  height: 12px;
+  width: 12px;
+  vertical-align: super;
+}
+.btn-check:checked + label:after {
+  content:"";
+  left: 10px;
+  height: 12px;
+  width: 19px;
+  background-image: url("images/tick.png") !important;
+  background-color: transparent;
+  position: relative;
+  display: inline-block;
+  background-repeat: no-repeat;
+  top: 2px;
+  opacity: 1;
+}
+.btn-check:active+.btn-outline-primary:focus, .btn-check:checked+.btn-outline-primary:focus, .btn-outline-primary.active:focus, .btn-outline-primary.dropdown-toggle.show:focus, .btn-outline-primary:active:focus {
+ 
+  box-shadow: 0px 4px 17px rgb(0 0 0 / 11%) !important;
+}
+.btn-check:focus+.btn-outline-primary, .btn-outline-primary:focus{
+  box-shadow: 0px 4px 17px rgb(0 0 0 / 11%) !important;
+}
+ul.dropdown-menu.show {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+/* identical to box height, or 154% */
+
+
+/* Global/Black */
+}
+
+ul.dropdown-menu a.dropdown-item {
+  font-family: 'Nunito Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 35px;
+  color: #000000;
+  height: 43px;
+}
+.dropdown-item:focus, .dropdown-item:hover{
+       background: rgb(58 135 206 / 26%) !important;
+}
+.dropdown-item.active, .dropdown-item:active {
+  background: rgb(58 135 206 / 26%) !important;
+  background-image: url("images/tick.png") !important;
+  background-color: transparent;
+  position: relative;
+  display: inline-block;
+  background-repeat: no-repeat !important;
+  padding-left: 40px;
+  background-position: 14px 13px !important;
+  transition: 0.3s all ease;
+}
+.dropdown-item {
+  transition: 0.3s all ease;
+}
+.direction-arrows li a {
+
+  background: #003798;
+  height: 56px;
+  width: 56px;
+  border-radius: 50%;
+  padding: 17px 23px;
+}
+.direction-arrows {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: flex-end;
+}
